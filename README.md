@@ -15,13 +15,13 @@ This system measures battery voltage using a voltage divider connected to an RP2
 
 ## Default Configuration
 - The supplied UF2 firmware is configured for:
-  - **10kΩ (top resistor)**
-  - **1kΩ (bottom resistor)**
+  - **10kΩ (+ resistor)**
+  - **1kΩ (- resistor)**
 - This setup allows safe measurement of voltages up to approximately **21V** on a **3.3V system**.
 
 ## Customization
 If your:
-- Input voltage range differs, or
+- Input voltage range higher, or
 - Resistor values are changed
 
 Then you must:
